@@ -83,7 +83,7 @@ F0 "Fan" 50
 F1 "Fan.sch" 50
 $EndSheet
 $Sheet
-S 9950 1100 650  5650
+S 9700 2050 600  2700
 U 52ED1C0B
 F0 "TerminalBlock" 50
 F1 "TerminalBlock.sch" 50
