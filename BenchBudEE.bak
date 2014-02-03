@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title ""
-Date "1 feb 2014"
+Date "3 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,10 +45,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2200 5500 1600 1100
+S 2200 4750 1650 2350
 U 52ED1A8D
 F0 "Arduino" 50
 F1 "Arduino.sch" 50
+F2 "Relay+" O R 3850 6750 60 
+F3 "Relay-" I R 3850 6900 60 
+F4 "MOSI" O R 3850 6100 60 
+F5 "MISO" I R 3850 6200 60 
+F6 "SCLK" O R 3850 6300 60 
+F7 "CS_N" O R 3850 6400 60 
+F8 "LED_EN" O R 3850 5550 60 
+F9 "LED_FREQ" O R 3850 5700 60 
 $EndSheet
 $Sheet
 S 7250 4100 1550 900 
