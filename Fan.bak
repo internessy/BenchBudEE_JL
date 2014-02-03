@@ -158,7 +158,7 @@ Wire Wire Line
 Connection ~ 6200 3550
 Wire Wire Line
 	2450 5200 7550 5200
-Text HLabel 2500 3850 0    60   Input ~ 0
+Text HLabel 2500 3850 0    60   Output ~ 0
 Current Measure
 Wire Wire Line
 	2500 3850 6200 3850
