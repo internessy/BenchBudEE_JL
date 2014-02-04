@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "3 feb 2014"
+Date "4 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -247,17 +247,17 @@ Text HLabel 5400 1200 2    60   Output ~ 0
 V+_ADJ
 Text HLabel 5500 6700 2    60   Output ~ 0
 V-_ADJ
-Text HLabel 8000 3300 2    60   Output ~ 0
+Text HLabel 8550 1950 2    60   Output ~ 0
 3V3_MON
-Text HLabel 8000 3450 2    60   Output ~ 0
+Text HLabel 8550 2100 2    60   Output ~ 0
 5V_MON
 Text HLabel 6550 2600 2    60   Output ~ 0
 V+_ADJ_MON
 Text HLabel 6550 5200 2    60   Output ~ 0
 V-_ADJ_MON
-Text HLabel 8000 3900 2    60   Output ~ 0
+Text HLabel 8550 2550 2    60   Output ~ 0
 V+_CURR_MON
-Text HLabel 8000 4050 2    60   Output ~ 0
+Text HLabel 8550 2700 2    60   Output ~ 0
 V-_CURR_MON
 $Comp
 L R R?
@@ -345,8 +345,6 @@ Wire Wire Line
 	3650 6000 3650 6400
 Connection ~ 4050 6000
 Wire Wire Line
-	4050 6700 5500 6700
-Wire Wire Line
 	3850 1200 3850 1350
 Wire Wire Line
 	4200 2450 4200 2500
@@ -361,8 +359,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 1900 3450 1500
 Connection ~ 3850 1900
-Wire Wire Line
-	3850 1200 5400 1200
 Wire Wire Line
 	3100 1200 3050 1200
 Connection ~ 3100 2950
@@ -419,33 +415,33 @@ Connection ~ 5950 2600
 $Comp
 L +3.3V #PWR?
 U 1 1 52F00C77
-P 7800 3100
-F 0 "#PWR?" H 7800 3060 30  0001 C CNN
-F 1 "+3.3V" H 7800 3210 30  0000 C CNN
-F 2 "" H 7800 3100 60  0000 C CNN
-F 3 "" H 7800 3100 60  0000 C CNN
-	1    7800 3100
+P 8350 1750
+F 0 "#PWR?" H 8350 1710 30  0001 C CNN
+F 1 "+3.3V" H 8350 1860 30  0000 C CNN
+F 2 "" H 8350 1750 60  0000 C CNN
+F 3 "" H 8350 1750 60  0000 C CNN
+	1    8350 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
 U 1 1 52F00C86
-P 7550 3100
-F 0 "#PWR?" H 7550 3190 20  0001 C CNN
-F 1 "+5V" H 7550 3190 30  0000 C CNN
-F 2 "" H 7550 3100 60  0000 C CNN
-F 3 "" H 7550 3100 60  0000 C CNN
-	1    7550 3100
+P 8100 1750
+F 0 "#PWR?" H 8100 1840 20  0001 C CNN
+F 1 "+5V" H 8100 1840 30  0000 C CNN
+F 2 "" H 8100 1750 60  0000 C CNN
+F 3 "" H 8100 1750 60  0000 C CNN
+	1    8100 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 3100 7550 3450
+	8100 1750 8100 2100
 Wire Wire Line
-	7550 3450 8000 3450
+	8100 2100 8550 2100
 Wire Wire Line
-	7800 3100 7800 3300
+	8350 1750 8350 1950
 Wire Wire Line
-	7800 3300 8000 3300
+	8350 1950 8550 1950
 $Comp
 L RVAR R?
 U 1 1 52F00D47
@@ -468,4 +464,150 @@ F 3 "~" H 4050 6300 60  0000 C CNN
 	1    4050 6300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2150 3950 2150 4200
+$Comp
+L R R?
+U 1 1 52F0BD17
+P 4600 6700
+F 0 "R?" V 4680 6700 40  0000 C CNN
+F 1 "R" V 4607 6701 40  0000 C CNN
+F 2 "~" V 4530 6700 30  0000 C CNN
+F 3 "~" H 4600 6700 30  0000 C CNN
+	1    4600 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 6700 4350 6700
+Wire Wire Line
+	4850 6700 5500 6700
+Wire Wire Line
+	4250 6700 4250 6050
+Wire Wire Line
+	4250 6050 4900 6050
+Connection ~ 4250 6700
+Text Label 4500 6050 0    60   ~ 0
+V-_MON
+$Comp
+L R R?
+U 1 1 52F0BE4B
+P 4550 1200
+F 0 "R?" V 4630 1200 40  0000 C CNN
+F 1 "R" V 4557 1201 40  0000 C CNN
+F 2 "~" V 4480 1200 30  0000 C CNN
+F 3 "~" H 4550 1200 30  0000 C CNN
+	1    4550 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 1200 5400 1200
+Wire Wire Line
+	4300 1200 3850 1200
+Wire Wire Line
+	4100 1200 4100 1750
+Wire Wire Line
+	4100 1750 4750 1750
+Wire Wire Line
+	4750 1750 4750 1700
+Connection ~ 4100 1200
+Text Label 4300 1750 0    60   ~ 0
+V+_MON
+$Comp
+L LM324 U?
+U 1 1 52F0BFD8
+P 8750 4200
+F 0 "U?" H 8800 4400 60  0000 C CNN
+F 1 "LM324" H 8900 4000 50  0000 C CNN
+F 2 "" H 8750 4200 60  0000 C CNN
+F 3 "" H 8750 4200 60  0000 C CNN
+	1    8750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 52F0BFF6
+P 8650 3650
+F 0 "#PWR?" H 8650 3600 20  0001 C CNN
+F 1 "+12V" H 8650 3750 30  0000 C CNN
+F 2 "" H 8650 3650 60  0000 C CNN
+F 3 "" H 8650 3650 60  0000 C CNN
+	1    8650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR?
+U 1 1 52F0C005
+P 8650 4750
+F 0 "#PWR?" H 8650 4880 20  0001 C CNN
+F 1 "-12V" H 8650 4850 30  0000 C CNN
+F 2 "" H 8650 4750 60  0000 C CNN
+F 3 "" H 8650 4750 60  0000 C CNN
+	1    8650 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 4300 8000 4300
+Wire Wire Line
+	8000 4300 8000 4950
+Wire Wire Line
+	8000 4950 9250 4950
+Wire Wire Line
+	9250 4950 9250 4200
+Wire Wire Line
+	8650 4600 8650 4750
+Wire Wire Line
+	8650 3800 8650 3650
+Wire Wire Line
+	8250 4100 7650 4100
+Text Label 7700 4100 0    60   ~ 0
+V+_MON
+$Comp
+L LM324 U?
+U 1 1 52F0C1B4
+P 8850 5950
+F 0 "U?" H 8900 6150 60  0000 C CNN
+F 1 "LM324" H 9000 5750 50  0000 C CNN
+F 2 "" H 8850 5950 60  0000 C CNN
+F 3 "" H 8850 5950 60  0000 C CNN
+	1    8850 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR?
+U 1 1 52F0C1BA
+P 8750 5400
+F 0 "#PWR?" H 8750 5350 20  0001 C CNN
+F 1 "+12V" H 8750 5500 30  0000 C CNN
+F 2 "" H 8750 5400 60  0000 C CNN
+F 3 "" H 8750 5400 60  0000 C CNN
+	1    8750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR?
+U 1 1 52F0C1C0
+P 8750 6500
+F 0 "#PWR?" H 8750 6630 20  0001 C CNN
+F 1 "-12V" H 8750 6600 30  0000 C CNN
+F 2 "" H 8750 6500 60  0000 C CNN
+F 3 "" H 8750 6500 60  0000 C CNN
+	1    8750 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8350 6050 8100 6050
+Wire Wire Line
+	8100 6050 8100 6700
+Wire Wire Line
+	8100 6700 9350 6700
+Wire Wire Line
+	9350 6700 9350 5950
+Wire Wire Line
+	8750 6350 8750 6500
+Wire Wire Line
+	8750 5550 8750 5400
+Wire Wire Line
+	8350 5850 7750 5850
+Text Label 7800 5850 0    60   ~ 0
+V-_MON
 $EndSCHEMATC
