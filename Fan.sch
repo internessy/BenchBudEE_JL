@@ -46,15 +46,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 7450 3300 2    60   Output ~ 0
-Power+
-Text HLabel 7450 3550 2    60   Input ~ 0
-Power-
+FAN_OUT+
+Text HLabel 7450 3550 2    60   Output ~ 0
+FAN_OUT-
 Text HLabel 7550 5200 2    60   Input ~ 0
-Tach
+TACH_IN
 Text HLabel 2450 5200 0    60   Output ~ 0
-Tach_Out
+TACH_MEAS
 Text HLabel 1800 3400 0    60   Input ~ 0
-Fan_In
+FAN_EN_N
 $Comp
 L LM324 U?
 U 1 1 52EF9EF8
@@ -160,7 +160,7 @@ Connection ~ 6200 3550
 Wire Wire Line
 	2450 5200 7550 5200
 Text HLabel 2500 3850 0    60   Output ~ 0
-Current Measure
+CURR_MEAS
 Wire Wire Line
 	2500 3850 6200 3850
 Connection ~ 6200 3850

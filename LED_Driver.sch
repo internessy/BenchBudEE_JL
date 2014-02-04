@@ -50,9 +50,9 @@ LED_EN_PWM
 Text HLabel 2500 2650 0    60   Input ~ 0
 FREQ
 Text HLabel 8900 2550 2    60   Output ~ 0
-String+
-Text HLabel 8900 4000 2    60   Input ~ 0
-String-
+LED_STRING+
+Text HLabel 8900 4000 2    60   Output ~ 0
+LED_STRING-
 $Comp
 L AP5726 U?
 U 1 1 52F0C98F
@@ -199,7 +199,7 @@ Wire Wire Line
 	6600 4650 5550 4650
 Connection ~ 5550 4650
 Wire Wire Line
-	8850 4000 6600 4000
+	6600 4000 8900 4000
 Connection ~ 6600 4000
 Wire Wire Line
 	7000 3550 7000 2550
