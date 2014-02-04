@@ -46,9 +46,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 3400 3400 0    60   Input ~ 0
-DIN+
+RELAY+
 Text HLabel 3400 3750 0    60   Output ~ 0
-DIN-
+RELAY-
 Text HLabel 9200 3050 2    60   BiDi ~ 0
 RELAY_NO
 Text HLabel 9200 2850 2    60   BiDi ~ 0

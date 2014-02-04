@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title ""
 Date "4 feb 2014"
 Rev ""
@@ -47,8 +47,6 @@ Comment4 ""
 $EndDescr
 Text HLabel 3300 3700 0    60   Input ~ 0
 LED_EN_PWM
-Text HLabel 2500 2650 0    60   Input ~ 0
-FREQ
 Text HLabel 8900 2550 2    60   Output ~ 0
 LED_STRING+
 Text HLabel 8900 4000 2    60   Output ~ 0
