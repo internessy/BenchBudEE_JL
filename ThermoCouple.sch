@@ -309,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 3500 6350 3400
 Wire Wire Line
-	5500 3200 5500 4100
+	5500 3800 5500 4100
 Wire Wire Line
 	5500 2000 5500 3000
 Wire Wire Line
@@ -356,10 +356,10 @@ $EndComp
 Wire Wire Line
 	5750 3000 5750 3200
 Wire Wire Line
-	5750 3600 5750 3700
+	5750 3600 5750 3900
 Wire Wire Line
-	5750 3700 5500 3700
-Connection ~ 5500 3700
+	5750 3900 5500 3900
+Connection ~ 5500 3900
 $Comp
 L R R43
 U 1 1 53034801
@@ -438,8 +438,6 @@ Wire Wire Line
 	5150 3450 4750 3450
 Wire Wire Line
 	4750 3600 5000 3600
-Wire Wire Line
-	5000 3600 5000 5900
 Wire Wire Line
 	5000 5900 7300 5900
 Wire Wire Line
@@ -642,7 +640,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1400 2700 1500
 Wire Wire Line
-	3350 1600 3350 1250
+	3350 1250 3350 1600
 Wire Wire Line
 	3200 1400 3350 1400
 Connection ~ 3350 1400
@@ -671,4 +669,40 @@ Wire Wire Line
 	1950 3950 2250 3950
 Wire Wire Line
 	2250 3950 2250 3900
+Text Label 4950 3000 0    60   ~ 0
+CH0+
+Text Label 4950 3200 0    60   ~ 0
+CH0-
+Text Label 4950 3450 0    60   ~ 0
+CH1+
+Text Label 4950 3600 0    60   ~ 0
+CH1-
+$Comp
+L R R47
+U 1 1 530388D9
+P 5000 4650
+F 0 "R47" V 5080 4650 40  0000 C CNN
+F 1 "0" V 5007 4651 40  0000 C CNN
+F 2 "" V 4930 4650 30  0000 C CNN
+F 3 "" H 5000 4650 30  0000 C CNN
+	1    5000 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3600 5000 4400
+Wire Wire Line
+	5000 4900 5000 5900
+$Comp
+L R R48
+U 1 1 53038A46
+P 5500 3550
+F 0 "R48" V 5580 3550 40  0000 C CNN
+F 1 "0" V 5507 3551 40  0000 C CNN
+F 2 "" V 5430 3550 30  0000 C CNN
+F 3 "" H 5500 3550 30  0000 C CNN
+	1    5500 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 3200 5500 3300
 $EndSCHEMATC
