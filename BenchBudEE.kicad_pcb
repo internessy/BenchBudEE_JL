@@ -3,7 +3,7 @@
   (general
     (links 60)
     (no_connects 60)
-    (area 126.949999 114.249999 292.150001 177.850001)
+    (area 126.949999 112.359 292.150001 177.850001)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -57,8 +57,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.905 1.905)
-    (pad_drill 1.27)
+    (pad_size 0.45 1.75)
+    (pad_drill 0)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFFBF)
@@ -960,7 +960,7 @@
   )
 
   (module SMD_Packages:SSOP20 (layer F.Cu) (tedit 53037EFD) (tstamp 53037998)
-    (at 230.886 166.116 90)
+    (at 238.506 166.878 90)
     (descr "SSOP 20 pins")
     (tags "CMS SSOP SMD")
     (path /52ED1AE1/53034637)
