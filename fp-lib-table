@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BenchBudEE)(type KiCad)(uri ${KIPRJMOD}/BenchBudEE.pretty)(options "")(descr ""))
+)
