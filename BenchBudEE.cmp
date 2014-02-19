@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-10 BZR 4684)-product date = Tuesday, 18 February 2014 22:40:25
+Cmp-Mod V01 Created by CvPcb (2014-02-10 BZR 4684)-product date = Wednesday, 19 February 2014 13:10:33
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1855D;
 Reference = ARD1;
 ValeurCmp = ARDUINO_PINS;
-IdModule  = ;
+IdModule  = BenchBudEE:arduino;
 EndCmp
 
 BeginCmp
@@ -410,98 +410,98 @@ BeginCmp
 TimeStamp = /52ED1A8D/52F19431;
 Reference = R28;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1B431;
 Reference = R29;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1B42B;
 Reference = R30;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1A404;
 Reference = R31;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1A3FE;
 Reference = R32;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1A3E5;
 Reference = R33;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1B473;
 Reference = R34;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1B480;
 Reference = R35;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1B486;
 Reference = R36;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F170F5;
 Reference = R37;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1B568;
 Reference = R38;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F27389;
 Reference = R39;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1B48C;
 Reference = R40;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F19429;
 Reference = R41;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
@@ -529,14 +529,14 @@ BeginCmp
 TimeStamp = /52ED1A8D/53038242;
 Reference = R45;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
 TimeStamp = /52ED1A8D/53038239;
 Reference = R46;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
@@ -551,6 +551,27 @@ TimeStamp = /52ED1AE1/53038A46;
 Reference = R48;
 ValeurCmp = 0;
 IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1A8D/5304B37E;
+Reference = R49;
+ValeurCmp = R;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1A8D/5304B373;
+Reference = R50;
+ValeurCmp = R;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /52ED1A8D/5304B361;
+Reference = R51;
+ValeurCmp = R;
+IdModule  = BenchBudEE:SM0805_BLOB_BRIDGE;
 EndCmp
 
 BeginCmp
