@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-17 BZR 4702)-product date = Friday, 21 February 2014 16:00:45
+Cmp-Mod V01 Created by CvPcb (2014-02-17 BZR 4702)-product date = Friday, 21 February 2014 16:27:32
 
 BeginCmp
 TimeStamp = /52ED1A8D/52F1855D;
@@ -620,7 +620,7 @@ BeginCmp
 TimeStamp = /52ED1B32/52EFD497;
 Reference = SW1;
 ValeurCmp = Power Switch;
-IdModule  = ;
+IdModule  = BenchBudEE:BB_powerSwitch;
 EndCmp
 
 BeginCmp
